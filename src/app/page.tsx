@@ -15,7 +15,7 @@ export default function Home() {
       {/* 배너 */}
       <article>
         <section
-          className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center px-4"
+          className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center px-4 bg-[#1a222c]"
           style={{ backgroundImage: `url(${banner_bg01.src})` }}
         >
           <div className="container mx-auto poppins text-white flex flex-col justify-center font-bold h-full">
