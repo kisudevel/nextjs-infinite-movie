@@ -3,7 +3,7 @@ import { banner_bg01 } from "../../public/assets/assets";
 import { thumbnail01 } from "../../public/assets/assets";
 import { star } from "../../public/assets/assets";
 
-export default function page() {
+export default function Home() {
   return (
     <>
       {/* 헤더 */}
@@ -12,7 +12,7 @@ export default function page() {
           <h1 className="text-3xl text-yellow-300 font-bold">SUFLIX</h1>
         </div>
       </header>
-      {/* 메인 */}
+      {/* 배너 */}
       <article>
         <section
           className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center px-4"
@@ -39,6 +39,7 @@ export default function page() {
           <span className="text-yellow-600">ONLINE STREAMING</span>
           <h2 className="text-[36px] font-bold mb-8">Movie LIST</h2>
           <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-0">
+            {/* 아이템 1개 */}
             <div>
               <Image src={thumbnail01} alt="" className="rounded-md" />
               <div className="flex justify-between items-center font-bold mt-4 mb-2 text-lg">
